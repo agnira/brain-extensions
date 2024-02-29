@@ -32,10 +32,3 @@ export async function seed(knex: Knex): Promise<void> {
         }
     ]);
 };
-
-// public id: string,
-// public created_at: Date,
-// public updated_at: Date,
-// public title: string,
-// public description: string,
-// public parent_id: string,
