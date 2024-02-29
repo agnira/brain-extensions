@@ -3,6 +3,7 @@ export class TaskItem {
         public id: string,
         public created_at: Date,
         public updated_at: Date,
+        public cell_id: string,
         public task: string,
         public parent_id: string,
     ) { }

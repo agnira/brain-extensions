@@ -4,6 +4,7 @@ export class Item {
         public created_at: Date,
         public updated_at: Date,
         public content: string,
+        public cell_id: string,
     ) { }
 }
 
